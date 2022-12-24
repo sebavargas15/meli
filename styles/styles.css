@@ -54,7 +54,7 @@ body {
 
 #p {
   font-size: 14px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: monospace;
   width: 14px;
   border-radius: 50%;
   border: 1px solid #fff;
@@ -109,9 +109,6 @@ body {
   margin: 0 10px;
 }
 
-.button {
-}
-
 .button input {
   width: 95%;
   background-color: #e4f0f8;
@@ -137,27 +134,35 @@ body {
   border-radius: 5px;
 }
 
+.container-credit-card{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#spandiv{
+  margin-left: auto;
+  margin-right: 1rem;
+}
+.spandivv{
+  font-size: 0.7rem;
+}
 .credit-card {
   display: flex;
   align-items: center;
   height: 32px;
   width: 65%;
-  margin-top: 20px;
-  background: rgb(83, 124, 150);
-  background: linear-gradient(
-    90deg,
-    rgba(83, 124, 150, 1) 29%,
-    rgba(131, 146, 162, 0.8494748241093313) 61%,
-    rgba(167, 168, 168, 1) 100%
-  );
+  background: rgb(83,124,150);
+background: linear-gradient(90deg, rgba(83,124,150,1) 14%, rgba(99,111,124,0.9167017148656338) 54%, rgba(142,144,144,0.9531162806919643) 100%);
   font-family: monospace;
   color: white;
   border-radius: 5px;
 }
 
 #span1 {
-  margin: 0 5px;
-  margin-top: 4px;
+  margin: auto 5px;
+  
 }
 
 .credit-card img{
