@@ -134,18 +134,22 @@ body {
   border-radius: 5px;
 }
 
-.container-credit-card{
+.container-credit-card {
   width: 100%;
   margin-top: 20px;
   display: flex;
   align-items: center;
 }
 
-#spandiv{
+#spandiv {
   margin-left: auto;
   margin-right: 1rem;
+  font-family: monospace;
 }
-.spandivv{
+.spandivvv {
+  font-size: 1.1rem;
+}
+.spandivv {
   font-size: 0.7rem;
 }
 .credit-card {
@@ -153,8 +157,13 @@ body {
   align-items: center;
   height: 32px;
   width: 65%;
-  background: rgb(83,124,150);
-background: linear-gradient(90deg, rgba(83,124,150,1) 14%, rgba(99,111,124,0.9167017148656338) 54%, rgba(142,144,144,0.9531162806919643) 100%);
+  background: rgb(83, 124, 150);
+  background: linear-gradient(
+    90deg,
+    rgba(83, 124, 150, 1) 14%,
+    rgba(99, 111, 124, 0.9167017148656338) 54%,
+    rgba(142, 144, 144, 0.9531162806919643) 100%
+  );
   font-family: monospace;
   color: white;
   border-radius: 5px;
@@ -162,20 +171,21 @@ background: linear-gradient(90deg, rgba(83,124,150,1) 14%, rgba(99,111,124,0.916
 
 #span1 {
   margin: auto 5px;
-  
 }
 
-.credit-card img{
+.credit-card img {
   width: 25px;
   height: 25px;
   margin: 0 11px;
 }
 
-.button, .credit-card{
+.button,
+.credit-card {
   margin-left: 20px;
 }
 
-.credit-card span{
+.credit-card span {
   position: relative;
   left: 30%;
 }
+
