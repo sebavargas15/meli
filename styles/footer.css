@@ -16,7 +16,8 @@ ul {
   justify-content: space-evenly;
 }
 ul li {
-  text-align: center;}
+  text-align: center;
+}
 ul li img {
   width: 1.6rem;
   height: 1.6rem;
@@ -34,23 +35,26 @@ ul li p {
     Arial, sans-serif;
 }
 
-
 #liqr {
-    position: relative;
-    bottom: 0.4rem;
-    background-color: #0664c9;
-    border-radius: 50%;
-    border: 5px solid #92c5fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 55px;
-    height: 55px;
+  position: relative;
+  bottom: 0.4rem;
+  background-color: #0664c9;
+  border-radius: 50%;
+  border: 5px solid #92c5fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
 }
 
-#qrimg{
-    width: 1.7rem;
-    height: 1.7rem;
-    position: relative;
-    top: 0.1rem;
+#qrimg {
+  width: 1.7rem;
+  height: 1.7rem;
+  position: relative;
+  top: 0.1rem;
+}
+
+#this {
+  color: #007aff;
 }

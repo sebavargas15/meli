@@ -1,4 +1,7 @@
 #second-div {
+  display: flex;
+  flex-wrap: wrap;
+
   width: 95%;
   height: 180px;
   background-color: #fff;

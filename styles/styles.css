@@ -29,9 +29,27 @@ body {
 
 .first-div p {
   color: #fff;
-  font-size: 17px;
   font-weight: 400;
   line-height: 1;
+  --swiper-theme-color: #007aff;
+  --swiper-navigation-size: 44px;
+  font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
+    Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  cursor: url(chrome-extension://ckejmhbmlajgoklhgbapkiccekfoccmk/assets/pictos/cursor.png)
+      17 17,
+    pointer !important;
+  color: #fff;
+  padding: 0.0625em 0.1875em;
+  max-width: 10.625em;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .container-div-pimg {
@@ -83,9 +101,6 @@ body {
 }
 
 .card p {
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
   font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
     Arial, sans-serif;
   color: #000;
@@ -114,10 +129,8 @@ body {
   background-color: #e4f0f8;
   color: #1e8cb7;
   border: none;
-  -webkit-text-size-adjust: 100%;
   --swiper-theme-color: #007aff;
   --swiper-navigation-size: 44px;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
   -webkit-font-smoothing: antialiased;
   font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
     Arial, sans-serif;
@@ -188,4 +201,3 @@ body {
   position: relative;
   left: 30%;
 }
-
