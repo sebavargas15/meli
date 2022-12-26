@@ -8,3 +8,27 @@
   border-radius: 7px;
   margin-top: 1rem;
 }
+
+#first-ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+#first-ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+#first-ul li a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
