@@ -8,7 +8,7 @@ const constraints = {
   audio: false,
   video: {
     width: {
-      min: 390,
+      min: 340,
       ideal: 1920,
       max: 2560,
     },
@@ -19,7 +19,7 @@ const constraints = {
     },
     
     facingMode: { exact: "environment" },
-    aspectRatio: 0.4634146341463415
+  //  aspectRatio: 0.4634146341463415
   }
   //   video: {
   //     facingMode: { exact: "environment" },
