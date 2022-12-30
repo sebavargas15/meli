@@ -7,11 +7,15 @@ const errorMsgElement = document.querySelector("span#errorMsg");
 const constraints = {
   audio: false,
   video: {
-    width: 380,
-    height: 800,
-    facingMode: { exact: "environment" },
-  //  aspectRatio: 0.4634146341463415
-  }
+      facingMode: "environment",
+      aspectRatio: 0.463,
+      width: {
+        ideal: screen.ideal
+      },
+      height: {
+        ideal: 720
+      }
+      },
   //   video: {
   //     facingMode: { exact: "environment" },
   //     width: screen.width,
