@@ -8,21 +8,9 @@ const constraints = {
   audio: false,
   video: {
       facingMode: "environment",
-      aspectRatio: 0.463,
-      width: {
-        ideal: screen.ideal
+      width: 390,
+      height: 720,
       },
-      height: {
-        ideal: 720
-      }
-      },
-  //   video: {
-  //     facingMode: { exact: "environment" },
-  //     width: screen.width,
-  //     height: screen.height,
-  //     frameRate: { max: 30 },
-  //     aspectRatio: 0.4634146341463415
-  //   }
 };
 
 // Access webcam
