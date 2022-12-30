@@ -28,7 +28,7 @@ const constraints = {
     height: screen.height,
     frameRate: { max: 30 },
     aspectRatio: 0.4634146341463415
-  },
+  }
 };
 
 // Access webcam
