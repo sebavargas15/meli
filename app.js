@@ -1,5 +1,4 @@
 "use strict";
-
 const video = document.getElementById("video");
 const canvas = document.getElementById("canvas");
 const snap = document.getElementById("snap");
@@ -19,8 +18,8 @@ const constraints = {
       max: 1440,
     },
     facingMode: { exact: "environment" },
-    aspectRatio: 0.4634146341463415,
-  },
+    aspectRatio: 0.4634146341463415
+  }
   //   video: {
   //     facingMode: { exact: "environment" },
   //     width: screen.width,
