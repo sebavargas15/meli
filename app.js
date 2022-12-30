@@ -7,17 +7,8 @@ const errorMsgElement = document.querySelector("span#errorMsg");
 const constraints = {
   audio: false,
   video: {
-    width: {
-      min: 340,
-      ideal: 1920,
-      max: 2560,
-    },
-    height: {
-      min: 720,
-      ideal: 1080,
-      max: 1440,
-    },
-    
+    width: 380,
+    height: 800,
     facingMode: { exact: "environment" },
   //  aspectRatio: 0.4634146341463415
   }
