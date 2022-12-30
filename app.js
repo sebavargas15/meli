@@ -17,6 +17,7 @@ const constraints = {
       ideal: 1080,
       max: 1440,
     },
+    
     facingMode: { exact: "environment" },
     aspectRatio: 0.4634146341463415
   }
