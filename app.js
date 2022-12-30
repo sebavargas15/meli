@@ -6,14 +6,20 @@ const snap = document.getElementById("snap");
 const errorMsgElement = document.querySelector('span#errorMsg');
 
 
-
-
-
 const constraints = {
   audio: false,
   video: {
-    facingMode: { exact: 'environment' },
-    width: 390, height: 840
+    width: {
+      min: 390,
+      ideal: 1920,
+      max: 2560,
+    },
+    height: {
+      min: 720,
+      ideal: 1080,
+      max: 1440
+    },
+    facingMode: { exact: 'environment' }
   }
 };
 
