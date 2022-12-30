@@ -9,26 +9,28 @@ const aspectRatioo = settings.width / settings.height;
 
 const constraints = {
   audio: false,
-  //   video: {
-  //     width: {
-  //       min: 390,
-  //       ideal: 1920,
-  //       max: 2560,
-  //     },
-  //     height: {
-  //       min: 720,
-  //       ideal: 1080,
-  //       max: 1440
-  //     },
-  //     facingMode: { exact: 'environment' }
-  //   }
   video: {
+    width: {
+      min: 390,
+      ideal: 1920,
+      max: 2560,
+    },
+    height: {
+      min: 720,
+      ideal: 1080,
+      max: 1440,
+    },
     facingMode: { exact: "environment" },
-    width: screen.width,
-    height: screen.height,
     frameRate: { max: 30 },
-    aspectRatio: 0.4634146341463415
-  }
+    aspectRatio: 0.4634146341463415,
+  },
+  //   video: {
+  //     facingMode: { exact: "environment" },
+  //     width: screen.width,
+  //     height: screen.height,
+  //     frameRate: { max: 30 },
+  //     aspectRatio: 0.4634146341463415
+  //   }
 };
 
 // Access webcam
