@@ -10,9 +10,9 @@ const errorMsgElement = document.querySelector('span#errorMsg');
 
 
 const constraints = {
-  audio: true,
+  audio: false,
   video: {
-    facingMode: 'environment',
+    facingMode: { exact: 'environment' },
     width: 390, height: 840
   }
 };
