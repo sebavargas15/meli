@@ -5,8 +5,6 @@ const canvas = document.getElementById("canvas");
 const snap = document.getElementById("snap");
 const errorMsgElement = document.querySelector("span#errorMsg");
 
-const aspectRatioo = settings.width / settings.height;
-
 const constraints = {
   audio: false,
   video: {
@@ -21,7 +19,6 @@ const constraints = {
       max: 1440,
     },
     facingMode: { exact: "environment" },
-    frameRate: { max: 30 },
     aspectRatio: 0.4634146341463415,
   },
   //   video: {
@@ -42,17 +39,11 @@ async function init() {
     errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
   }
 }
-
-// Success
 function handleSuccess(stream) {
   window.stream = stream;
   video.srcObject = stream;
 }
-
-// Load init
 init();
-
-// Draw image
 var context = canvas.getContext("2d");
 snap.addEventListener("click", function () {
   context.drawImage(video, 0, 0, 640, 480);
