@@ -5,9 +5,14 @@ const canvas = document.getElementById('canvas');
 const snap = document.getElementById("snap");
 const errorMsgElement = document.querySelector('span#errorMsg');
 
+
+
+
+
 const constraints = {
   audio: true,
   video: {
+    facingMode: 'environment',
     width: 390, height: 840
   }
 };
